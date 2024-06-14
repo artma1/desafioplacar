@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Inicie o servidor (substitua pelo comando correto para iniciar seu servidor)
+java -jar TesteSolApplication.jar &
+
+# Aguarde o servidor estar pronto (ajuste o tempo conforme necessário)
+sleep 5
+
+# Execute o aplicativo Java com o argumento da linha de comando
+java envioScore "66x3"
